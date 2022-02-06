@@ -137,3 +137,10 @@ rpg () {
 export SERVER_PRIVATE_KEY='/home/tegar/.ssh/contabo'
 export SERVER_USERNAME=tegar
 export SERVER_HOST=awan.urusan.id
+
+# Deal with node modules, ref https://sebhastian.com/remove-node-modules/
+alias nodemodules_findall="find . -name 'node_modules' -type d -prune | xargs du -chs"
+alias nodemodules_removeall="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+
+# Check size, ref https://linuxize.com/post/how-get-size-of-file-directory-linux/
+alias folder_size="du -chs ./* | sort -h"
