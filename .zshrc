@@ -144,3 +144,7 @@ alias nodemodules_removeall="find . -name 'node_modules' -type d -prune -exec rm
 
 # Check size, ref https://linuxize.com/post/how-get-size-of-file-directory-linux/
 alias folder_size="du -chs ./* | sort -h"
+
+alias checkListeningPort='sudo lsof -i -P -n | grep LISTEN'
+alias myIP="curl ifconfig.me"
+alias checkOpenPort="sudo nmap -sTU -O"
