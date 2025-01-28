@@ -1,8 +1,5 @@
 127.0.0.1	localhost
 127.0.1.1	tegar
-192.168.39.229	alterra.demo
-192.168.39.229	hello-node.info
-192.168.39.229	hello-web.info
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback

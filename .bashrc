@@ -1,4 +1,4 @@
-## For Bash in windows, using starship
+# For Bash in windows, using starship
 
 # Alias
 alias ls=eza # https://github.com/eza-community/eza

@@ -1,3 +1,5 @@
+## Notes: this file is not managed yet
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
 
@@ -132,11 +134,6 @@ rpg () {
    rpg-cli "$@"
    cd "$(rpg-cli --pwd)"
 }
-
-# Server
-export SERVER_PRIVATE_KEY='/home/tegar/.ssh/contabo'
-export SERVER_USERNAME=tegar
-export SERVER_HOST=awan.urusan.id
 
 # Deal with node modules, ref https://sebhastian.com/remove-node-modules/
 alias nodemodules_findall="find . -name 'node_modules' -type d -prune | xargs du -chs"
